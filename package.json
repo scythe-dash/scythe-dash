@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "contributors": [
+    "Arseny Kruglikov"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scythe-dash/scythe-dash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scythe-dash/scythe-dash/issues"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.1.0",
+    "prettier": "2.8.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "section-react",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "author": "Arseny Kruglikov",
+  "license": "MIT",
+  "dependencies": {
+    "section": "*"
+  },
+  "peerDependencies": {
+    "react": "^16.3 || ^17 || ^18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "typescript": "^4.9.4"
+  }
+}

@@ -1,0 +1,1 @@
+export { useFastSection } from './useFastSection';
